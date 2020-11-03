@@ -1,3 +1,3 @@
 # gearson
 
-Page link(gearson.herokuapp.com)
+Page [link](gearson.herokuapp.com)
