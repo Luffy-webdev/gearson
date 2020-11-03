@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+.navHeading-GearsOn {
+    font-size:120px;
+    font-family: "Audiowide";
+}
+
+.background {
+    background-color: #181818;
+}
+.background-content {
+    background-color: #000;
+}
+ul{
+    list-style-type: none;
+}
+.topic {
+    background-color: #111;
+}
+.documentation:hover, .involute:hover, .start:hover, .shaft:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    background-color: #181818;
+  }
+a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+
+.githubLogo:hover {
+    transform: scale(1.1);
+}
+
+
+
+/* .landingPage-navLinks
+{
+    position: relative;
+}
+
+.landingPage-navLinks:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.landingPage-navLinks:hover:before {
+    visibility: visible;
+    height: 3px;
+  } */
+
+
+@media screen and (min-width:360px) {
+    .hh1, .hh2, .hh3, .hh4 {
+        font-size: 24px;
+    }
+    .navHeading-GearsOn {
+        font-size: 40px;
+        font-family: "Audiowide";
+    }
+    .navbar-img {
+        width: 70px;
+    }
+}
+@media screen and (min-width:767.98px) and (max-width:991.98px) {
+    .hh1, .hh2, .hh3, .hh4 {
+        font-size: 31px;
+    }
+    .navbar-img {
+        width: 77px;
+    }
+    .documentation, .start, .involute, .shaft {
+        display: flex;
+        flex-direction: column;
+    }
+    .documentation img, .start img, .involute img, .shaft img{
+        margin: 0 auto !important;
+        display: flex;
+        align-items: center;
+
+    }
+    .shaft img {
+        margin-top: 2rem !important;
+    }
+    .documentation img {
+        margin-bottom: 2rem !important;
+    }
+    .documentation span, .start span, .involute span, .shaft span{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .navHeading-GearsOn {
+        font-size: 60px;
+        font-family: "Audiowide";
+    }
+
+}
+@media screen and (min-width:991.99px) {
+    .hh1, .hh2, .hh3, .hh4 {
+        font-size: 35px;
+    }
+    .navbar-img {
+        width: 92px;
+    }
+    .navHeading-GearsOn {
+        font-size: 73px;
+        font-family: "Audiowide";
+    }
+    
+
+}
+@media screen and (min-width:1228px) {
+    .hh1, .hh2, .hh3, .hh4 {
+        font-size: 40px;
+    }
+    .navbar-img {
+        width: 100px;
+    }
+    .navHeading-GearsOn {
+        font-size: 90px;
+        font-family: "Audiowide";
+    }
+}
+
+

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+div .l,div .r {
+    margin: 0;
+    padding: 0;
+}
+.l {
+    background: #000;
+
+}
+.r {
+    background: #191919;
+
+}
+.background-2 {
+    background: #111;
+}
+.is-itim {
+    font-family:"Itim";
+}
+
+.is-patrickhand {
+    font-family:"Patrick Hand";
+}
+.is-firaCode {
+    font-family:"Operator Mono", "Fira Code";
+}
+.is-fira {
+    font-family:"Fira Code";
+}
+.is-white{
+    color: #fff;
+}
+
+#query-area {
+    background-color: #202020;
+    color:#fff;
+    border: 4px solid #111;
+}

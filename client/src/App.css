@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&display=swap');
+@font-face {
+    font-family: Op;
+    src: url('https://drive.google.com/file/d/1cNFD8poifwe7XiEdkq7ZO9hAH7yN6xg1/view?usp=sharing');
+  }
+.is-operatorMono {
+    font-family: Op,"Fira Code", "Share Tech Mono";
+}
+.is-op {
+    font-family: Op,"Fira Code", "Space Mono";
+}
+#root {
+    margin: 0;
+    padding: 0;
+}
+.row {
+    margin-left: 0;
+    margin-right:0;
+}
+.back-is-black {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+}
+div .container {
+    min-height: 100vh;
+    position: relative;
+    margin: 0 auto;
+}
+h1 .color, h3 .color {
+    color: #ff2842;
+}
+.is-audiowide {
+    font-family: 'Audiowide',sans-seriff;
+}
+.is-mono {
+    font-family: "Space Mono", "Share Tech Mono", sans-seriff;
+}
+.is-monospace {
+    font-family: "Fira Code", 'Share Tech Mono',sans-seriff;
+}
+.is-bold{
+    font-weight: 700;
+}
+.format-head {
+    text-align: center;
+    font-size: 10rem;
+}
+.format-body {
+    margin-bottom: 5rem;
+    text-align: center;
+}
+.footer {
+    width: 100%;
+}
+
+.img-of-doc:hover {
+    transform:scale(1.1);
+}
+.img-of-gear:hover {
+    transform:scale(1.1);
+}
+.img-of-inv:hover {
+    transform:scale(1.1);
+}
+p a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: #777;
+}
+
+p a:hover {
+  color: #7FFF00;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+@media (min-width: 200px) {
+     .format-head {
+        margin-top: 1rem;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 3.5rem;
+        text-align:center;
+    }
+
+
+    .row h4 {
+        font-size: 1.1rem;
+        margin-top: 1rem;
+    }
+    .format-body h3{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .footer {
+        font-size: 10px;
+        padding-top: 2.6rem;
+    }
+    header {
+        text-align: center;
+    }
+}
+
+@media (min-width: 375px) {
+    .format-head {
+        margin-top: 1rem;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 3.6rem
+    }
+}
+
+@media (min-width: 430px) {
+    .format-head {
+        margin-top: 1rem;
+        font-size: 4.3rem
+    }
+    .row {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .footer {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 504px) {
+    h1 .format-head {
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 5rem;
+    }
+    .row h4 {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    div:nth-child(2) {
+        margin-top: 17px;
+
+    }
+    div:nth-child(3) {
+        margin-top: 13px;
+
+    }
+    .footer {
+        padding-top: 7rem;
+    }
+    footer .col-md-12 {
+        margin-top: 3rem;
+        padding-top: 3rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .page-contents div:nth-child(1) {
+        margin-top: 19px;
+    }
+    .format-head {
+        margin-top: 1rem;
+        font-size: 6.7rem;
+    }
+
+    .row h4 {
+        font-size: 1rem;
+    }
+    .format-body h3{
+        font-size: 1.4rem;
+        margin-top: 2rem;
+    }
+    .footer {
+        padding-top: 7rem;
+    }
+    footer .col-md-12 {
+        margin-top: 5rem;
+        padding-top: 5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .page-contents div:nth-child(1) {
+        margin-top: 0;
+    }
+    .format-head {
+        margin-top: 1rem;
+        font-size: 7.3rem;
+    }
+    .row h4 {
+        font-size: 1.7rem;
+    }
+    .format-body h3 {
+        font-size: 1.8rem;
+    }
+    .footer {
+        padding-top: 7rem;
+    }
+    footer .col-md-12 {
+        margin-top: 5rem;
+        padding-top: 5rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .page-contents div:nth-child(1) {
+        margin-top: 0;
+    }
+    .format-head {
+        margin-top: 1rem;
+        font-size: 10rem;
+    }
+    footer .col-md-12 {
+        margin-top: 5rem;
+        padding-top: 3rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

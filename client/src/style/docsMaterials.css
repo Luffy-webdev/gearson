@@ -1,0 +1,5 @@
+tr:hover {
+    opacity:0.78;
+    border: 1px solid;
+    border-radius: 12px !important;
+}

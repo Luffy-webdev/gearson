@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Space+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
+@font-face {
+    font-family: Op;
+    src: url('./op.otf');
+  }
+.katex {
+    font-size: 1.3em !important;
+}
+.is-black {
+    background: #222;
+}
+.is-bblack {
+    background: #111;
+}
+.is-white {
+    color: #fff;
+}
+
+
+#dropdown-Nav{
+  background: transparent;
+  border: 0;
+}
+
+.is-dark {
+    color: #111;
+}
+
+.is-light-dark {
+    color: #444;
+}
+.is-operatorMono {
+    font-family: Op, "Share Tech Mono";
+}
+.is-bold {
+    font-weight: 700;
+}
+.is-light-bold {
+    font-weight: 500;
+}
+.is-apro {
+    font-family: 'Anonymous Pro';
+}
+.icon-bar {
+    width: 22px;
+    height: 2px;
+    background-color: #B6B6B6;
+    display: block;
+    transition: all 0.2s;
+    margin-top: 4px
+}
+
+
+ul {
+    list-style: none;
+}
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
+
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
+
+.doc-gear {
+    font-size: 17px;
+}
+
+
+.heading-1 {
+    font-family: "Operator Mono";
+}
+
+
+.site-navLinks:before {
+  text-decoration: none;
+  color: #fff;
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.site-navLinks:hover:before {
+    visibility: visible;
+    height: 3px;
+  }
