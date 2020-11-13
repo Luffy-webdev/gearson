@@ -71,7 +71,7 @@ export default class HomePage extends Component {
                         </div>
                         <div className="col m-0 d-flex align-items-center p-0">
                             <span className="is-white navHeading-GearsOn">Gears'</span>
-                            <span className="navHeading-GearsOn" style={{color:"#ffaf46"}}>On</span>
+                            <span className="navHeading-GearsOn" style={{color:"#ffaf46"}}>Off</span>
                             <span className="navHeading-GearsOn is-white">!</span>
                         </div>
                     </div>
