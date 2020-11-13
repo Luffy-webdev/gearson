@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Space+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
+@font-face {
+    font-family: Op;
+    src: url('https://drive.google.com/file/d/1cNFD8poifwe7XiEdkq7ZO9hAH7yN6xg1/view?usp=sharing');
+}
+.navHeading span{
+    font-size: 30px;
+}
+
+select {
+    border-radius:4px;
+}
+
+#content {
+    -webkit-appearance: none;
+    -moz-appearance: window;
+    padding: 2px 19px 2px 2px;
+    border: none;
+    background-image: url("./arr.svg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    border: 5px solid #fff;
+    background-color: #fff;
+    border-radius: 4px;
+}
+span option {
+    background-color : #fff;
+}
+.is-operatorMono {
+    font-family: Op, "Share Tech Mono";
+}
+
+
+.katex {
+    font-size: 1.3em !important;
+}
+.is-black {
+    background: #222;
+}
+.is-bblack {
+    background: #181818;
+}
+.is-white {
+    color: #fff;
+}
+.is-dark {
+    color: #111;
+}
+
+.is-light-dark {
+    color: #444;
+}
+.is-operatorMono {
+    font-family: Op;
+}
+
+.is-bold {
+    font-weight: 700;
+}
+.is-light-bold {
+    font-weight: 500;
+}
+.is-apro {
+    font-family: 'Anonymous Pro';
+}
+.icon-bar {
+    width: 22px;
+    height: 2px;
+    background-color: #B6B6B6;
+    display: block;
+    transition: all 0.2s;
+    margin-top: 4px
+}
+
+
+ul {
+    list-style: none;
+}
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
+
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
+
+.doc-gear {
+    font-size: 17px;
+}
+
+
+.heading-1 {
+    font-family: "Operator Mono";
+}
+
+
+@media (min-width:768px) and (max-width:1500px) {
+    .navbar-toggler.collapsed .collapse .collapsed{
+        display:none !important;
+    }
+}
