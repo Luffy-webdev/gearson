@@ -1,7 +1,7 @@
 import React from "react";
 import '../style/contact.css';
 import { Link } from 'react-router-dom';
-import gitHubLogo from '../assets/gitHubLogo.svg'
+import gitHubLogo from '../assets/githubLogo.svg'
 import Joi from 'joi-browser';
 import axios from 'axios';
 import Form from './common/form';
