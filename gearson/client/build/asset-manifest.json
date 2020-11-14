@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.861e2f90.chunk.css",
-    "main.js": "/static/js/main.43ebf782.chunk.js",
-    "main.js.map": "/static/js/main.43ebf782.chunk.js.map",
+    "main.js": "/static/js/main.50c704e2.chunk.js",
+    "main.js.map": "/static/js/main.50c704e2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3374ac37.js",
     "runtime-main.js.map": "/static/js/runtime-main.3374ac37.js.map",
     "static/css/2.19b5e35e.chunk.css": "/static/css/2.19b5e35e.chunk.css",
-    "static/js/2.97130c6c.chunk.js": "/static/js/2.97130c6c.chunk.js",
-    "static/js/2.97130c6c.chunk.js.map": "/static/js/2.97130c6c.chunk.js.map",
+    "static/js/2.81bad206.chunk.js": "/static/js/2.81bad206.chunk.js",
+    "static/js/2.81bad206.chunk.js.map": "/static/js/2.81bad206.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7b17f14c1b8ad1658632030deeebbe31.js": "/precache-manifest.7b17f14c1b8ad1658632030deeebbe31.js",
+    "precache-manifest.425856bebe6d3b1ca49b55b00aaaf316.js": "/precache-manifest.425856bebe6d3b1ca49b55b00aaaf316.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.19b5e35e.chunk.css.map": "/static/css/2.19b5e35e.chunk.css.map",
     "static/css/main.861e2f90.chunk.css.map": "/static/css/main.861e2f90.chunk.css.map",
-    "static/js/2.97130c6c.chunk.js.LICENSE.txt": "/static/js/2.97130c6c.chunk.js.LICENSE.txt",
+    "static/js/2.81bad206.chunk.js.LICENSE.txt": "/static/js/2.81bad206.chunk.js.LICENSE.txt",
     "static/media/Group12.svg": "/static/media/Group12.aae55b1a.svg",
     "static/media/Group15.svg": "/static/media/Group15.f01ec56a.svg",
     "static/media/Group16.svg": "/static/media/Group16.114d0215.svg",
@@ -28,7 +28,6 @@
     "static/media/docNew.svg": "/static/media/docNew.7ada9407.svg",
     "static/media/gearNew.svg": "/static/media/gearNew.8fb86466.svg",
     "static/media/gear_cutting.jpeg": "/static/media/gear_cutting.49fd5e72.jpeg",
-    "static/media/gitHubLogo.svg": "/static/media/gitHubLogo.601a3c19.svg",
     "static/media/githubLogo.svg": "/static/media/githubLogo.601a3c19.svg",
     "static/media/helical-g.PNG": "/static/media/helical-g.2c5c9be7.PNG",
     "static/media/helical_cutting.jpg": "/static/media/helical_cutting.5b50166d.jpg",
@@ -45,8 +44,8 @@
   "entrypoints": [
     "static/js/runtime-main.3374ac37.js",
     "static/css/2.19b5e35e.chunk.css",
-    "static/js/2.97130c6c.chunk.js",
+    "static/js/2.81bad206.chunk.js",
     "static/css/main.861e2f90.chunk.css",
-    "static/js/main.43ebf782.chunk.js"
+    "static/js/main.50c704e2.chunk.js"
   ]
 }
