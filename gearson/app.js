@@ -5,7 +5,11 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const router = express.Router();
 const app = express();
+const dotenv=require('dotenv');
 const axios = require('axios');
+
+dotenv.config();
+
 //Middleware
 app.use(express.json());
 const PORT = process.env.PORT || 1114;
@@ -14,7 +18,7 @@ const Data = require('./models/data');
 
 require('dotenv').config();
 const nodemailer = require('nodemailer');
-const MONGO_URL = process.env.MONGO_URI || "mongodb+srv://Devang:devang@cluster0.l2m0o.mongodb.net/GearsOn?retryWrites=true&w=majority"
+const MONGO_URL = process.env.MONGO_URI;
 
 
 app.use(express.urlencoded({ extended: false }));
